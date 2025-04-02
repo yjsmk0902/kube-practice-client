@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      apiBaseUrl: process.env.API_BASE_URL,
-      baseURL: process.env.CONTEXT_PATH,
+      apiBaseUrl: 'http://localhost:8080',
+      baseURL: '/main',
     }
   }
 })
