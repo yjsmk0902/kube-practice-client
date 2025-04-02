@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBaseUrl: 'http://kube-test-server-main',
+      apiBaseUrl: 'http://kube-test-server-main/main-api',
     }
   }
 })
