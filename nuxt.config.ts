@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBaseUrl: 'http://ing-default-kubeprivatei-95da4-104258556-e369bd066aff.kr.lb.naverncp.com/main-api',
+      apiBaseUrl: 'http://kube-test-server-main',
     }
   }
 })
