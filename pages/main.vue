@@ -30,6 +30,7 @@ const error = ref<string | null>(null);
 const checkHealth = async (): Promise<void> => {
   try {
     healthStatus.value = await callHealthCheckApi();
+    console.log(healthStatus.value);
     error.value = null;
   } catch (err) {
     error.value = err instanceof Error ? err.message : String(err);
