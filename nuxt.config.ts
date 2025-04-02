@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBaseUrl: 'http://localhost:8080',
+      apiBaseUrl: 'http://ing-default-kubeprivatei-95da4-104258556-e369bd066aff.kr.lb.naverncp.com/main-api',
     }
   }
 })
